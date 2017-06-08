@@ -5,17 +5,23 @@
   "module": "src/index.es.js",
   "repository": "git@github.com:emartini/styled-button.git",
   "author": "Esteban Martini <esteban.martini@gmail.com>",
-  "scripts": {},
+  "scripts": {
+    "lint:js": "eslint --ext .js,.jsx './src'",
+    "lint:css": "stylelint './src/**/*.jsx'",
+    "build:dev": "rollup -c",
+    "build": "NODE_ENV=production rollup -c"
+  },
   "peerDependencies": {
     "react": "^15.5.4",
     "styled-components": "^2.0.1"
   },
   "devDependencies": {
+    "babel-eslint": "^7.2.3",
     "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-preset-es2015-rollup": "^3.0.0",
     "babel-preset-react": "^6.24.1",
-    "babel-plugin-transform-export-extensions": "^6.22.0",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.1",
     "eslint-plugin-import": "^2.3.0",
