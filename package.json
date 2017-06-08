@@ -1,0 +1,40 @@
+{
+  "name": "styled-button",
+  "version": "0.0.1",
+  "description": "A simple Button Component to test the styled-components approach",
+  "module": "src/index.es.js",
+  "repository": "git@github.com:emartini/styled-button.git",
+  "author": "Esteban Martini <esteban.martini@gmail.com>",
+  "scripts": {},
+  "peerDependencies": {
+    "react": "^15.5.4",
+    "styled-components": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-jsx-a11y": "^5.0.3",
+    "eslint-plugin-react": "^7.0.1",
+    "react": "^15.5.4",
+    "rollup": "^0.42.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-uglify": "^2.0.1",
+    "styled-components": "^2.0.1",
+    "stylelint": "^7.10.1",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-processor-styled-components": "^0.1.0",
+    "uglify-es": "^3.0.15"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  }
+}
