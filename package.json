@@ -2,7 +2,7 @@
   "name": "styled-button",
   "version": "0.0.1",
   "description": "A simple Button Component to test the styled-components approach",
-  "module": "src/index.es.js",
+  "module": "dist/index.es.js",
   "repository": "git@github.com:emartini/styled-button.git",
   "author": "Esteban Martini <esteban.martini@gmail.com>",
   "scripts": {
